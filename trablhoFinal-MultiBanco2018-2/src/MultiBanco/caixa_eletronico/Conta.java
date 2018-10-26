@@ -1,16 +1,21 @@
 package MultiBanco.caixa_eletronico;
 
+/**
+ * @author César Augusto Moro Fürst
+ * @link https://github.com/CesarAugustoMor/
+ */
+
 public class Conta {
 
 	private long numero;
-
 	private long saldo;
-
 	private Usuario titular;
-
 	private TipoContaEnum tipo;
-
 	private Usuario suplente;
+	private long senhaTitularN;
+	private long senhaSuplenteN;
+	private String senhaTitular;
+	private String senhaSuplente;
 
 	/**
 	 *  
@@ -55,5 +60,29 @@ public class Conta {
 
 	public long getSaldo() {
 		return saldo;
+	}
+
+	public long getSenhaTitularNumerica() {
+		return senhaTitularN;
+	}
+
+	public long getSenhaSuplenteNumerica() {
+		return senhaSuplenteN;
+	}
+
+	public void setSenhaSuplenteNumerica(long senhaSuplenteNumerica) {
+		this.senhaSuplenteN = senhaSuplenteNumerica;
+	}
+
+	public String getSenhaTitularAlfa() {
+		return senhaTitular;
+	}
+
+	public String getSenhaSuplenteAlfa() {
+		return senhaSuplente;
+	}
+
+	public void setSenhaSuplenteAlfa(String senhaSuplente) {
+		this.senhaSuplente = senhaSuplente;
 	}
 }

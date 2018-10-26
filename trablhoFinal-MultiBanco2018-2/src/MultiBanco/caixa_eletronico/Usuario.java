@@ -1,5 +1,10 @@
 package MultiBanco.caixa_eletronico;
 
+/**
+ * @author César Augusto Moro Fürst
+ * @link https://github.com/CesarAugustoMor/
+ */
+
 import java.util.Date;
 
 public class Usuario {

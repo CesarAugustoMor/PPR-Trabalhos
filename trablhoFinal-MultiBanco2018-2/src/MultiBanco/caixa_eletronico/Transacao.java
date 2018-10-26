@@ -1,5 +1,10 @@
 package MultiBanco.caixa_eletronico;
 
+/**
+ * @author César Augusto Moro Fürst
+ * @link https://github.com/CesarAugustoMor/
+ */
+
 import java.sql.Time;
 
 public class Transacao {
@@ -16,14 +21,14 @@ public class Transacao {
 
 	private Usuario responsavel;
 
-	private ResponsavelTipoEnum responsavelTipoEnum;
+	private TipoResponsavelEnum responsavelTipoEnum;
 
-	private OperacaoTipoEnum operacao;
+	private TipoOperacaoEnum operacao;
 
 	/**
 	 *  
 	 */
-	Transacao(long id, OperacaoTipoEnum Operacao, long valor) {
+	Transacao(long id, TipoOperacaoEnum Operacao, long valor) {
 		this.id=id;
 		this.operacao=Operacao;
 		this.valor=valor;
@@ -58,19 +63,19 @@ public class Transacao {
 		this.responsavel = responsavel;
 	}
 
-	public ResponsavelTipoEnum getResponsavelTipoEnum() {
+	public TipoResponsavelEnum getResponsavelTipoEnum() {
 		return responsavelTipoEnum;
 	}
 
-	public void setResponsavelTipoEnum(ResponsavelTipoEnum responsavelTipoEnum) {
+	public void setResponsavelTipoEnum(TipoResponsavelEnum responsavelTipoEnum) {
 		this.responsavelTipoEnum = responsavelTipoEnum;
 	}
 
-	public OperacaoTipoEnum getOperacao() {
+	public TipoOperacaoEnum getOperacao() {
 		return operacao;
 	}
 
-	public void setOperacao(OperacaoTipoEnum operacao) {
+	public void setOperacao(TipoOperacaoEnum operacao) {
 		this.operacao = operacao;
 	}
 

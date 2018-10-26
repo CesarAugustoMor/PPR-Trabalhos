@@ -5,14 +5,16 @@ package MultiBanco.caixa_eletronico;
  * @link https://github.com/CesarAugustoMor/
  */
 
-public enum TipoContaEnum {
+public enum TipoOperacaoEnum {
 
-	POUPANCA,
+	SEQUE,
 
-	CORRENTE,
+	CONSULTA_SALDO,
 
-	SALARIO,
+	EXTRATO,
 
-	INVESTIMENTO;
+	TRANSFERENCIA,
+
+	PAGAMENTO;
 
 }

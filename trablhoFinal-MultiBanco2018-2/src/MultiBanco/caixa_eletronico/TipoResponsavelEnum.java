@@ -5,14 +5,12 @@ package MultiBanco.caixa_eletronico;
  * @link https://github.com/CesarAugustoMor/
  */
 
-public enum TipoContaEnum {
+public enum TipoResponsavelEnum {
 
-	POUPANCA,
+	CLIENTE,
 
-	CORRENTE,
+	FUNCIONARIO,
 
-	SALARIO,
-
-	INVESTIMENTO;
+	GERENTE;
 
 }

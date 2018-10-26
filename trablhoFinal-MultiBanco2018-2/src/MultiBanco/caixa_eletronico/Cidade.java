@@ -1,5 +1,10 @@
 package MultiBanco.caixa_eletronico;
 
+/**
+ * @author César Augusto Moro Fürst
+ * @link https://github.com/CesarAugustoMor/
+ */
+
 public class Cidade {
 
 	private int id;
